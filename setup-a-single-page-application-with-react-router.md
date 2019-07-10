@@ -45,7 +45,8 @@ Noticed the new HTML you write shows up directly under the "Home" link - both ex
 3. Expand the `<Router>` in `App.js` to look like this:
     ```jsx
     const App = () => {
-        return <>
+        return (
+        <>
             <Router>
                 <header>
                     <ul>
@@ -61,7 +62,7 @@ Noticed the new HTML you write shows up directly under the "Home" link - both ex
                 </main>
                 <footer>Copyright &copy;</footer>
             </Router>
-        </>;
+        </>);
     }
     export default App;
     ```
