@@ -43,7 +43,7 @@ Noticed the new HTML you write shows up directly under the "Home" link - both ex
     import Contact from 'components/pages/Contact';
     ```
 3. Expand the `<Router>` in `App.js` to look like this:
-    ```javascript
+    ```jsx
     const App = () => {
         return <>
             <Router>
