@@ -30,7 +30,7 @@ The following files can be removed from the `/src` folder:
 
 ### Before getting started
 
-Because we will be moving files around into folders to better organize things, to make our pathing easier, create a file called `jsconfig.js` in the project's root folder (where `package.json` is located). Paste in the following code, save it, then exit:
+Because we will be moving files around into folders to better organize things, to make our pathing easier, create a file called `jsconfig.json` in the project's root folder (where `package.json` is located). Paste in the following code, save it, then exit:
 
 ```json
 {

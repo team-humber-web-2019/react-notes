@@ -5,7 +5,7 @@
 From the CLI in the project folder...
 
 1. Install React Router into this project: `npm install react-router-dom`
-2. Inside of `App.js`, add the following directly under the React import statement (likely on line 1): `import { BrowserRouter as Router, Route, Link } from 'react-router-dom';`;
+2. Inside of `App.js`, add the following directly under the React import statement (likely on line 1): `import { BrowserRouter as Router, Route, Link } from 'react-router-dom';`
 3. Create a `Home` component as `Home.js` and save it to `components/pages`
    * Ensure `Home.js` exports the component: `export default Home;`
    * `return` a React fragment `<></>` to start off
